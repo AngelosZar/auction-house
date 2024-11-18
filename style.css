@@ -78,4 +78,10 @@ body {
      bg-green-2 text-white hover:bg-green-3 focus:ring-2
       focus:ring-green-2 focus:ring-offset-2 !px-4 !py-2;
   }
+  .btn-secondary {
+    @apply !rounded-[8px] !text-center
+     bg-white text-green-2 border-2 border-green-2
+      hover:bg-green-2 hover:text-white focus:ring-2
+      focus:ring-green-2 focus:ring-offset-2 !px-4 !py-2;
+  }
 }
