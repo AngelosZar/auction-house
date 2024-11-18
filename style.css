@@ -84,4 +84,14 @@ body {
       hover:bg-green-2 hover:text-white focus:ring-2
       focus:ring-green-2 focus:ring-offset-2 !px-4 !py-2;
   }
+  .btn-primary-dark {
+    @apply !rounded-[8px] border-2 border-purple-light !text-center !px-4 !py-2
+     bg-purple-light text-white hover:bg-body-dark hover:border-2 hover:border-purple-light
+     focus:ring-purple-light focus:ring-offset-2  focus:ring-2;
+  }
+  .btn-secondary-dark {
+    @apply !rounded-[8px] !text-center border-2 border-purple-light
+     bg-body-dark text-white hover:bg-purple-light hover:text-white
+      focus:ring-2 !px-4 !py-2  focus:ring-purple-light focus:ring-offset-2;
+  }
 }
