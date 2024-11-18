@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Auction house</title>
     <script type="module" src="/src/app.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +14,9 @@
     />
   </head>
   <body>
-    <header class="w-full bg-body-light dark:bg-bright-black">
+    <header
+      class="w-full bg-body-light dark:bg-black-bright border-b-2 border-b-black dark:border-none"
+    >
       <section
         class="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-3"
       >
@@ -31,8 +33,9 @@
           <nav class="flex gap-4">
             <!-- serch btn and dropdown -->
             <div class="group relative">
+              <!-- rethink about the style on hover -->
               <button
-                class="rounded-full p-2 transition-all duration-300 hover:bg-gray-300"
+                class="rounded-full p-2 transition-all duration-300 hover:bg-green-3 hover:dark:bg-purple-dark"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +58,7 @@
             </div>
             <div class="group relative">
               <button
-                class="rounded-full p-2 transition-all duration-300 hover:bg-gray-300"
+                class="rounded-full p-2 transition-all duration-300 hover:bg-green-2 hover:dark:bg-purple-dark"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,49 +77,50 @@
               </button>
               <!-- add dropdown -->
               <div
-                class="invisible absolute right-0 mt-2 w-48 rounded-lg bg-white opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 dark:bg-bright-black"
+                class="invisible absolute right-0 mt-2 w-48 rounded-lg bg-white opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 dark:bg-bright-black dark:bg-purple-dark"
               >
                 <ul class="py-2 font-bold">
                   <!-- [&>li]:hover:bg-dark-purple -->
+                  <!-- add on focus later  -->
                   <li>
                     <a
                       href="/auth/sign_up/"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >Register</a
                     >
                   </li>
                   <li>
                     <a
                       href="/auth/sign_in/"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >Log in</a
                     >
                   </li>
                   <li>
                     <a
                       href="/profile/"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >Profile</a
                     >
                   </li>
                   <li>
                     <a
                       href="/listing/view/"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >Your items</a
                     >
                   </li>
                   <li>
                     <a
                       href="/listing/create/"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >List an item</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="block px-4 py-4 hover:bg-green-1 dark:hover:bg-dark-purple"
+                      class="block px-4 py-4 hover:bg-green-2 dark:hover:bg-blue-dark"
                       >Log out</a
                     >
                   </li>
