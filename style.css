@@ -32,24 +32,24 @@
 
   h1 {
     @apply text-6xl;
-  } /* 60px */
+  }
   h2 {
     @apply text-5xl;
-  } /* 48px */
+  }
   h3 {
     @apply text-4xl;
-  } /* 36px */
+  }
   h4 {
     @apply text-3xl;
-  } /* 30px */
+  }
   h5 {
     @apply text-2xl;
-  } /* 24px */
+  }
   h6 {
     @apply text-xl;
-  } /* 20px */
+  }
 
-  /* Theme Colors */
+  /* Themes */
   html.dark {
     @apply bg-body-dark text-text-white transition-colors duration-200;
   }

@@ -13,11 +13,13 @@ export default {
           light: "#FDFDFD",
         },
         green: {
-          1: "#6FB15F",
+          1: "#8EEB78",
+          2: "#6FB15F",
+          3: "#418B2F",
         },
         purple: {
-          dark: "#5333F6",
-          darker: "#2F365B",
+          light: "#5333F6",
+          dark: "#2F365B",
         },
         blue: {
           dark: "#07193C",
