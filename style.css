@@ -60,10 +60,15 @@
 }
 
 /* Layout */
-body {
+/* body {
   @apply grid min-h-screen place-items-center;
+} */
+/* main {
+  @apply grid min-h-screen place-items-center max-w-[1440px] mx-auto px-4;
+} */
+main {
+  @apply min-h-screen  max-w-[1440px] mx-auto px-4;
 }
-
 /* btns */
 @layer components {
   .btn {
